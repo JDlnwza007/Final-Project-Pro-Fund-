@@ -106,7 +106,7 @@ char id[20], name[50], address[100], status[50];
 char last_id[20] = "None";
 char line[MAX_LINE];
 int id_exists;
-// --- Phase 1: แสดง ID ล่าสุด (ถ้ามี) ---
+// ---- Phase 1: แสดง ID ล่าสุด (ถ้ามี) ----
 FILE *fp = fopen(FILENAME, "r");
 if (fp != NULL) {
     if (fgets(line, sizeof(line), fp)) {
@@ -119,7 +119,7 @@ if (fp != NULL) {
 }
 
 
-// --- Phase 2: รับค่า ID และตรวจสอบการซ้ำซ้อน ---
+// ---- Phase 2: รับค่า ID และตรวจสอบการซ้ำซ้อน ----
 do {
     id_exists = 0;
     printf("Enter DeliveryID (or enter '0' to cancel): ");
