@@ -147,13 +147,13 @@ do {
 } while (id_exists);
 
 
-// --- Phase 3: รับข้อมูลส่วนที่เหลือ ---
+// ---- Phase 3: รับข้อมูลส่วนที่เหลือ ----
 printf("Enter RecipientName: ");
 scanf(" %[^\n]", name);
 printf("Enter Address: ");
 scanf(" %[^\n]", address);
 
-// --- Phase 4: เมนูเลือกสถานะ ---
+// ---- Phase 4: เมนูเลือกสถานะ ----
 int status_choice;
 int valid_choice = 0;
 do {
