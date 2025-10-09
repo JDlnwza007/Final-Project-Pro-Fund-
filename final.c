@@ -551,7 +551,7 @@ if (fp == NULL) {
     return;
 }
 
-// --- Phase 2: Find and Display ---
+// ---- Phase 2: Find and Display ----
 char found_id[20];
 fgets(line, sizeof(line), fp);
 while (fgets(line, sizeof(line), fp)) {
