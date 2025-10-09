@@ -536,7 +536,7 @@ char keyword[100];
 char line[MAX_LINE];
 char buffer[MAX_LINE];
 int found = 0;
-// --- Phase 1: Search ---
+// ---- Phase 1: Search ----
 printf("Enter DeliveryID or Part of Name to mark as 'Deleted' (or enter '0' to cancel): ");
 scanf(" %[^\n]", keyword);
 
