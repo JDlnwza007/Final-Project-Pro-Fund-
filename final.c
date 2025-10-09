@@ -441,7 +441,7 @@ if (fp == NULL) {
     return;
 }
 
-// --- Phase 2: Find and Display (เหมือนเดิม) ---
+// ---- Phase 2: Find and Display (เหมือนเดิม) ----
 char found_id[20];
 
 fgets(line, sizeof(line), fp);
