@@ -10,7 +10,7 @@
 #define ANSI_COLOR_GREEN  "\x1b[32m"
 #define ANSI_COLOR_GRAY   "\x1b[90m"
 #define ANSI_COLOR_RESET  "\x1b[0m"
-// ------------------------------------
+// -------------------------------------
 #define FILENAME "shipping.csv"
 #define MAX_LINE 1024
 // ฟังก์ชันหลัก (เหมือนเดิม)
@@ -40,7 +40,7 @@ if (strcmp(status, "Delivered") == 0) {
 }
 return colored_status;
 }
-// ---------- ฟังก์ชันที่ 1 อ่านข้อมูล CSV (เวอร์ชันแสดงสีตามสถานะ) ----------
+// ----------- ฟังก์ชันที่ 1 อ่านข้อมูล CSV (เวอร์ชันแสดงสีตามสถานะ) ----------
 void read_data() {
 FILE *fp = fopen(FILENAME, "r");
 if (fp == NULL) {
