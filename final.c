@@ -576,7 +576,7 @@ while (fgets(line, sizeof(line), fp)) {
 }
 fclose(fp);
 
-// --- Phase 3: Confirm and Act ---
+// ---- Phase 3: Confirm and Act ----
 if (!found) {
     printf("\n-- Record '%s' not found. --\n", keyword);
     return;
