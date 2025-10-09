@@ -468,7 +468,7 @@ while (fgets(line, sizeof(line), fp)) {
 }
 fclose(fp);
 
-// --- Phase 3: Get New Data and Act ---
+// ---- Phase 3: Get New Data and Act ----
 if (!found) {
     printf("\n-- Record '%s' not found. --\n", keyword);
     return;
